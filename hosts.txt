@@ -1,0 +1,11 @@
+[staging_servers]
+linuxM ansible_host=172.31.85.251 ansible_ssh_private_key_file=/home/ec2-user/ansible/keypair.txt
+
+[prod_servers]
+linux1 ansible_host=172.31.92.252
+linux2 ansible_host=172.31.83.178
+
+
+[prod_servers:vars]
+ansible_user=ec2-user
+ansible_ssh_private_key_file=/home/ec2-user/ansible/keypair.txt
