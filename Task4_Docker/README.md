@@ -1,9 +1,9 @@
-#Exadel Task 4 - Docker
+# Exadel Task 4 - Docker
 
-##Docs:
+## Docs:
   1. Read documentation about docker (https://docs.docker.com/) - *Have read*
 
-##Tasks:
+## Tasks:
   1. Install docker. (Hint: please use VMs or Clouds for this) - *Have used Ubuntu terminal*
   
   Commands used to install docker:
