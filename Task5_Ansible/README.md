@@ -9,8 +9,12 @@
 EXTRA Read the Jinja2 templating documentation -
  
 ## Tasks:
-- Deploy three virtual machines in the Cloud. Install Ansible on one of them (control_plane).
+- Deploy three virtual machines in the Cloud. 
 ![cloud instances](https://user-images.githubusercontent.com/85607071/157311790-7e1b1b31-ec7a-4a0a-bdc5-35d04b837144.png)
+Install Ansible on one of them (control_plane).
+```
+sudo amazon-linux-extras install ansible2 -y
+```
 
 - Ping pong - execute the built-in ansible ping command. Ping the other two machines.
 - My First Playbook: write a playbook for installing Docker on two machines and run it.
