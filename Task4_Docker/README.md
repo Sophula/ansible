@@ -38,7 +38,7 @@
   ![nginx image](https://user-images.githubusercontent.com/85607071/157212822-103c41d2-f4e3-4625-874d-76e609db9b21.png)
 
   3.2. Add an environment variable "DEVOPS=<username> to your docker image 
-  *Environment variable could be added in Dockerfile as well*
+  - *Environment variable could be added in Dockerfile as well*
   
   ![env_devops](https://user-images.githubusercontent.com/85607071/157212743-52c1306e-66b4-47a5-8772-a030eae58176.png)
 
@@ -48,7 +48,7 @@
   - Pushed my nginx docker image to docker hub, added following description: Created a docker file and builded docker image that runs nginx web application.
   
   5. Create docker-compose file. Deploy a few docker containers via one docker-compose file. 
-  - *Created docker-compose.yml file"
+  - *Created docker-compose.yml file*
   ```
   vim docker-compose.yml
   ```
