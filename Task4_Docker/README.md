@@ -35,6 +35,7 @@
   3.1. Create your Dockerfile for building a docker image. Your docker image should run any web application (nginx, apache, httpd). Web application should be located inside the docker image. 
   - *Created Dockerfile for building a docker image, which runs nginx web application*
   ![Dockerfile](https://user-images.githubusercontent.com/85607071/157212664-3e103ef5-cdbf-4f97-b238-52dcd4dabd13.png)
+  ![image_2022_03_08T18_41_32_838Z](https://user-images.githubusercontent.com/85607071/157311292-48948c15-511b-4eee-a36d-0040bc4a869d.png)
   ![nginx image](https://user-images.githubusercontent.com/85607071/157212822-103c41d2-f4e3-4625-874d-76e609db9b21.png)
 
   3.2. Add an environment variable "DEVOPS=<username> to your docker image 
