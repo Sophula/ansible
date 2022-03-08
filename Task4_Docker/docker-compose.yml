@@ -1,0 +1,22 @@
+version: "3.3"
+services:
+    my_docker_image:
+      image: "df7854c892e3/ubuntu-nginx"
+      deploy:
+        replicas: "5"
+      ports:
+       - "80:80"
+      environment:
+       -DEVOPS: "Sopio"
+
+    java_application:
+      image: "tomcat"
+      ports:
+       - "8080:8080"
+      depends_on:
+        - "mongodb"
+
+    mongodb:
+      image: "mongo"
+      ports:
+        - "27017:27017"
