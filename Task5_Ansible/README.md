@@ -3,9 +3,9 @@
 ## Important points:
  
 1. Read documentation about System configuration management. - [System configuration management](https://www.atlassian.com/continuous-delivery/principles/configuration-management)
-2. Learn about the advantages and disadvantages of Ansible over other tools. (https://www.youtube.com/watch?v=1id6ERvfozo)
-3. Become familiar with ansible basics and YAML syntax. (https://www.youtube.com/watch?v=1uFVr15xDGg)
-4. Basics of working with Ansible from the official documentation - (https://docs.ansible.com/ansible/latest/user_guide/index.html#getting-started)
+2. Learn about the advantages and disadvantages of Ansible over other tools. [Ansible pros and cons](https://www.youtube.com/watch?v=1id6ERvfozo)
+3. Become familiar with ansible basics and YAML syntax. [YAML](https://www.youtube.com/watch?v=1uFVr15xDGg)
+4. Basics of working with Ansible from the official documentation - [Official docs of Ansible](https://docs.ansible.com/ansible/latest/user_guide/index.html#getting-started)
 
 EXTRA Read the Jinja2 templating documentation - [Introduction](https://jinja2docs.readthedocs.io/en/stable/intro.html#experimental-python-3-support/), [Jinja2 Basics mini course](https://kodekloud.com/courses/jinja2-templating/)
  
