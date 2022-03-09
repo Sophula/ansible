@@ -32,17 +32,23 @@
   docker run hello-world
   ```
   ![docker hello world](https://user-images.githubusercontent.com/85607071/157217294-f7f95f38-ebda-4c1d-988c-a4d830cd89e1.png)
+  
+  EXTRA 2.1. Use image with html page, edit html page and paste text: <Username> 2022
 
   3.1. Create your Dockerfile for building a docker image. Your docker image should run any web application (nginx, apache, httpd). Web application should be located inside the docker image. 
   - *Created Dockerfile for building a docker image, which runs nginx web application*
   ![Dockerfile](https://user-images.githubusercontent.com/85607071/157212664-3e103ef5-cdbf-4f97-b238-52dcd4dabd13.png)
 
   ![nginx image](https://user-images.githubusercontent.com/85607071/157212822-103c41d2-f4e3-4625-874d-76e609db9b21.png)
+  
+  EXTRA 3.1.1. For creating docker image use clear basic images (ubuntu, centos, alpine, etc.)
 
   3.2. Add an environment variable "DEVOPS=<username> to your docker image 
   - *Environment variable could be added in Dockerfile as well*
   
   ![env_devops](https://user-images.githubusercontent.com/85607071/157212743-52c1306e-66b4-47a5-8772-a030eae58176.png)
+  
+  EXTRA 3.2.1. Print environment variable with the value on a web page (if environment variable changed after container restart - the web page must be updated with a new value)
 
   4. Push your docker image to docker hub (https://hub.docker.com/). Create any description for your Docker image. 
   
@@ -50,6 +56,8 @@
   - *Pushed my nginx docker image to docker hub, added description:*
   
   ![image_2022_03_08T18_41_32_838Z](https://user-images.githubusercontent.com/85607071/157311292-48948c15-511b-4eee-a36d-0040bc4a869d.png)
+  
+  EXTRA 4.1. Integrate your docker image and your github repository. Create an automatic deployment for each push. (The Deployment can be in the “Pending” status for 10-20 minutes. This is normal).
   
   5. Create docker-compose file. Deploy a few docker containers via one docker-compose file. 
   - *Created docker-compose.yml file*
@@ -72,5 +80,6 @@
   docker-compose -f docker-compose.yml up
   ```
 
+  EXTRA 5.1. Use env files to configure each service.
 
  
