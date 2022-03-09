@@ -2,10 +2,10 @@
  
 ## Important points:
  
-1. Read documentation about System configuration management.
-2. Learn about the advantages and disadvantages of Ansible over other tools.
-3. Become familiar with ansible basics and YAML syntax.
-4. Basics of working with Ansible from the official documentation
+1. Read documentation about System configuration management. - [System configuration management](https://www.atlassian.com/continuous-delivery/principles/configuration-management)
+2. Learn about the advantages and disadvantages of Ansible over other tools. (https://www.youtube.com/watch?v=1id6ERvfozo)
+3. Become familiar with ansible basics and YAML syntax. (https://www.youtube.com/watch?v=1uFVr15xDGg)
+4. Basics of working with Ansible from the official documentation - (https://docs.ansible.com/ansible/latest/user_guide/index.html#getting-started)
 
 EXTRA Read the Jinja2 templating documentation - [Introduction](https://jinja2docs.readthedocs.io/en/stable/intro.html#experimental-python-3-support/), [Jinja2 Basics mini course](https://kodekloud.com/courses/jinja2-templating/)
  
@@ -16,8 +16,10 @@ Install Ansible on one of them (control_plane).
 ```
 sudo amazon-linux-extras install ansible2 -y
 ```
+![ansible_version](https://user-images.githubusercontent.com/85607071/157445202-d5c00538-1a1b-4d0f-af33-c65fd24ff325.png)
 
 - Ping pong - execute the built-in ansible ping command. Ping the other two machines.
+
 - My First Playbook: write a playbook for installing Docker on two machines and run it.
        
 EXTRA 1. Write a playbook for installing Docker and one of the (LAMP/LEMP stack, Wordpress, ELK, MEAN - GALAXY do not use) in Docker.
