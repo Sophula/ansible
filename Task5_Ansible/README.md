@@ -19,6 +19,8 @@ sudo amazon-linux-extras install ansible2 -y
 ![ansible_version](https://user-images.githubusercontent.com/85607071/157445202-d5c00538-1a1b-4d0f-af33-c65fd24ff325.png)
 
 - Created keypair.txt file in order to store key pair for Cloud EC2 Instances.
+- Made ansible.cfg file to indicate the inventory file and disable host_key_checking.
+![ansible cfg](https://user-images.githubusercontent.com/85607071/157497378-622eda9e-4ce4-4c3d-9e72-e5430b59eaec.png)
 
 - Ping pong - execute the built-in ansible ping command. Ping the other two machines.
 - Configured the hosts.txt file 
