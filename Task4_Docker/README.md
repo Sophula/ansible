@@ -43,7 +43,7 @@
   
   EXTRA 3.1.1. For creating docker image use clear basic images (ubuntu, centos, alpine, etc.)
 
-  3.2. Add an environment variable "DEVOPS=<username> to your docker image 
+  3.2. Add an environment variable "DEVOPS=<username>" to your docker image 
   - *Environment variable could be added in Dockerfile as well*
   
   ![env_devops](https://user-images.githubusercontent.com/85607071/157212743-52c1306e-66b4-47a5-8772-a030eae58176.png)
