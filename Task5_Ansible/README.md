@@ -11,6 +11,7 @@ EXTRA Read the Jinja2 templating documentation - [Introduction](https://jinja2do
  
 ## Tasks:
 - Deploy three virtual machines in the Cloud. 
+- 
 ![cloud instances](https://user-images.githubusercontent.com/85607071/157311790-7e1b1b31-ec7a-4a0a-bdc5-35d04b837144.png)
 - Install Ansible on one of them (control_plane).
 ```
@@ -20,10 +21,12 @@ sudo amazon-linux-extras install ansible2 -y
 
 - Created keypair.txt file in order to store key pair for Cloud EC2 Instances.
 - Made ansible.cfg file to indicate the inventory file and disable host_key_checking.
+
 ![ansible cfg](https://user-images.githubusercontent.com/85607071/157497378-622eda9e-4ce4-4c3d-9e72-e5430b59eaec.png)
 
 - Ping pong - execute the built-in ansible ping command. Ping the other two machines.
 - Configured the hosts.txt file 
+
 ![hosts txt](https://user-images.githubusercontent.com/85607071/157450003-9e7d9d38-d0ad-4701-8cd1-79af0d840a72.png)
 - Ran ansible ping command for other two machines
 ```
@@ -41,6 +44,7 @@ ansible -i hosts.txt prod_servers -m ping
 ansible-playbook playbook1.yml
 ```
 ## Result: Docker is installed on both of the machines in the Cloud.
+
 ![docker 1](https://user-images.githubusercontent.com/85607071/157498717-5c4e2d7a-3bca-4f49-911a-c2fc4d9ad20a.png)
 ![docker 2](https://user-images.githubusercontent.com/85607071/157498737-1c9c2cda-80d9-4d72-8ee3-806b68eab1ce.png)
 
