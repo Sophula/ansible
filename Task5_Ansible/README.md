@@ -30,6 +30,9 @@ ansible -i hosts.txt prod_servers -m ping
 ![correct ping pong](https://user-images.githubusercontent.com/85607071/157451323-a3b3702b-f005-41d4-abac-325e143d2770.png)
 
 - My First Playbook: write a playbook for installing Docker on two machines and run it.
+
+![playbook1](https://user-images.githubusercontent.com/85607071/157496012-76a41fb7-cb69-480a-bcf4-b04f6007b992.png)
+![playbook2](https://user-images.githubusercontent.com/85607071/157496050-d2e9ea1e-51cd-4609-93c5-c4d77191ef55.png)
        
 EXTRA 1. Write a playbook for installing Docker and one of the (LAMP/LEMP stack, Wordpress, ELK, MEAN - GALAXY do not use) in Docker.
 EXTRA 2. Playbooks should not have default creds to databases and/or admin panel.
