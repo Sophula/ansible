@@ -6,7 +6,9 @@
 2. Learn about the advantages and disadvantages of Ansible over other tools.
 3. Become familiar with ansible basics and YAML syntax.
 4. Basics of working with Ansible from the official documentation
-EXTRA Read the Jinja2 templating documentation -
+
+EXTRA Read the Jinja2 templating documentation - [Introduction](https://jinja2docs.readthedocs.io/en/stable/intro.html#experimental-python-3-support/)
+- [Jinja2 Basics mini course](https://kodekloud.com/courses/jinja2-templating/)
  
 ## Tasks:
 - Deploy three virtual machines in the Cloud. 
