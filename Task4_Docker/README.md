@@ -5,6 +5,7 @@
 
 ## Tasks:
   1. Install docker. (Hint: please use VMs or Clouds for this) - *Have used Ubuntu*
+  
   ![installed docker](https://user-images.githubusercontent.com/85607071/157217243-378de675-9612-4023-b898-b58ae9b87749.png)
 
   - Commands used to install docker:
@@ -35,7 +36,7 @@
   3.1. Create your Dockerfile for building a docker image. Your docker image should run any web application (nginx, apache, httpd). Web application should be located inside the docker image. 
   - *Created Dockerfile for building a docker image, which runs nginx web application*
   ![Dockerfile](https://user-images.githubusercontent.com/85607071/157212664-3e103ef5-cdbf-4f97-b238-52dcd4dabd13.png)
-  ![image_2022_03_08T18_41_32_838Z](https://user-images.githubusercontent.com/85607071/157311292-48948c15-511b-4eee-a36d-0040bc4a869d.png)
+
   ![nginx image](https://user-images.githubusercontent.com/85607071/157212822-103c41d2-f4e3-4625-874d-76e609db9b21.png)
 
   3.2. Add an environment variable "DEVOPS=<username> to your docker image 
@@ -46,7 +47,8 @@
   4. Push your docker image to docker hub (https://hub.docker.com/). Create any description for your Docker image. 
   
   ![dockerhub](https://user-images.githubusercontent.com/85607071/157212965-36daf907-a128-4e57-8b84-74c79e7ee09e.png)
-  - *Pushed my nginx docker image to docker hub, added following description: Created a docker file and builded docker image that runs nginx web application.*
+  - *Pushed my nginx docker image to docker hub, added description:*
+  ![image_2022_03_08T18_41_32_838Z](https://user-images.githubusercontent.com/85607071/157311292-48948c15-511b-4eee-a36d-0040bc4a869d.png)
   
   5. Create docker-compose file. Deploy a few docker containers via one docker-compose file. 
   - *Created docker-compose.yml file*
