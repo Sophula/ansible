@@ -35,6 +35,16 @@ ansible -i hosts.txt prod_servers -m ping
 
 ![playbook1](https://user-images.githubusercontent.com/85607071/157496012-76a41fb7-cb69-480a-bcf4-b04f6007b992.png)
 ![playbook2](https://user-images.githubusercontent.com/85607071/157496050-d2e9ea1e-51cd-4609-93c5-c4d77191ef55.png)
+
+- To run the playbook used command:
+```
+ansible-playbook playbook1.yml
+```
+## Result: Docker is installed on both of the machines in the Cloud.
+![docker 1](https://user-images.githubusercontent.com/85607071/157498717-5c4e2d7a-3bca-4f49-911a-c2fc4d9ad20a.png)
+![docker 2](https://user-images.githubusercontent.com/85607071/157498737-1c9c2cda-80d9-4d72-8ee3-806b68eab1ce.png)
+
+
        
 EXTRA 1. Write a playbook for installing Docker and one of the (LAMP/LEMP stack, Wordpress, ELK, MEAN - GALAXY do not use) in Docker.
 EXTRA 2. Playbooks should not have default creds to databases and/or admin panel.
