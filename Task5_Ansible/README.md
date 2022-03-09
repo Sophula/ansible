@@ -18,7 +18,16 @@ sudo amazon-linux-extras install ansible2 -y
 ```
 ![ansible_version](https://user-images.githubusercontent.com/85607071/157445202-d5c00538-1a1b-4d0f-af33-c65fd24ff325.png)
 
+- Created keypair.txt file in order to store key pair for Cloud EC2 Instances.
+
 - Ping pong - execute the built-in ansible ping command. Ping the other two machines.
+- Configured the hosts.txt file 
+![hosts txt](https://user-images.githubusercontent.com/85607071/157450003-9e7d9d38-d0ad-4701-8cd1-79af0d840a72.png)
+- Ran ansible ping command for other two machines
+```
+ansible -i hosts.txt prod_servers -m ping
+```
+![correct ping pong](https://user-images.githubusercontent.com/85607071/157451323-a3b3702b-f005-41d4-abac-325e143d2770.png)
 
 - My First Playbook: write a playbook for installing Docker on two machines and run it.
        
