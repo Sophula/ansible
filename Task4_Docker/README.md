@@ -48,6 +48,7 @@
   
   ![dockerhub](https://user-images.githubusercontent.com/85607071/157212965-36daf907-a128-4e57-8b84-74c79e7ee09e.png)
   - *Pushed my nginx docker image to docker hub, added description:*
+  
   ![image_2022_03_08T18_41_32_838Z](https://user-images.githubusercontent.com/85607071/157311292-48948c15-511b-4eee-a36d-0040bc4a869d.png)
   
   5. Create docker-compose file. Deploy a few docker containers via one docker-compose file. 
@@ -55,14 +56,14 @@
   ```
   vim docker-compose.yml
   ```
-  first image - your docker image from the previous step. 5 nodes of the first image should be run; 
-  - *To run 5 nodes of the first image added to deploy replicas:5*
-  second image - any java application; 
-  - *Chose tomcat as any java application*
-  last image - any database image (mysql, postgresql, mongo or etc.). 
-  - *Decided to run mongo as a database image*
-  Second container should be run right after a successful run of a database container. 
-  - *To ensure the same added depends_on section*
+  - first image - your docker image from the previous step. 5 nodes of the first image should be run; 
+  *To run 5 nodes of the first image added to deploy replicas:5*
+  - second image - any java application; 
+  *Chose tomcat as any java application*
+  - last image - any database image (mysql, postgresql, mongo or etc.). 
+  *Decided to run mongo as a database image*
+  - Second container should be run right after a successful run of a database container. 
+  *To ensure the same added depends_on section*
   
   ![docker-compose](https://user-images.githubusercontent.com/85607071/157215449-c386cb09-3335-4312-b5ac-e910307a679f.png)
   
