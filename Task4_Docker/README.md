@@ -73,13 +73,16 @@
   - Second container should be run right after a successful run of a database container. 
   *To ensure the same added depends_on section*
   
-  ![docker-compose](https://user-images.githubusercontent.com/85607071/157215449-c386cb09-3335-4312-b5ac-e910307a679f.png)
+  ![correct compose file](https://user-images.githubusercontent.com/85607071/157643959-adbab0ac-7b4b-413c-9819-f2ef9c75da4f.png)
   
   - In order to run docker-compose file, used command:
   ```
   docker-compose -f docker-compose.yml up
   ```
+  
+  ![docker final](https://user-images.githubusercontent.com/85607071/157644062-0d3aaecd-3357-4e15-8cec-90a6099e5000.png) 
 
+  
   EXTRA 5.1. Use env files to configure each service.
 
  
