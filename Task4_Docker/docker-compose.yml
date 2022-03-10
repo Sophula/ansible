@@ -7,7 +7,7 @@ services:
       ports:
        - "80:80"
       environment:
-       -DEVOPS: "Sopio"
+       - DEVOPS=Sopio
 
     java_application:
       image: "tomcat"
