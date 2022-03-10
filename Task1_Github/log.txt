@@ -1,0 +1,5 @@
+commit 5ccaf6d1b5c7732d30fd052b22f83cd3e6eb43b9
+Author: Sophula <berishvilisopio@gmail.com>
+Date:   Wed Feb 16 15:09:09 2022 +0400
+
+    Created folder Task1 with README.md file
