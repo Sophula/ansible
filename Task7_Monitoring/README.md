@@ -1,17 +1,20 @@
 # Task 7: Logging & Monitoring
 
 ## Tasks:
-1. Zabbix:
+
+## 1. Zabbix:
 Big brother is watching  ....
-1.1 Install on server, configure web and base
-1.2 Prepare VM or instances. 
-1.2.1 Install Zabbix agents on previously prepared servers or VM.
+- 1.1 Install on server, configure web and base
+- 1.2 Prepare VM or instances. 
+- 1.2.1 Install Zabbix agents on previously prepared servers or VM.
+
 EXTRA 1.2.2: Complete 1.2.1 using ansible
-1.3 Make several of your own dashboards, where to output data from your host/vm/container (one of them)
-1.4 Active check vs passive check - use both types.
-1.5 Make an agentless check of any resource (ICMP ping)
-1.6 Provoke an alert - and create a Maintenance instruction
-1.7 Set up a dashboard with infrastructure nodes and monitoring of hosts and software installed on them
+
+- 1.3 Make several of your own dashboards, where to output data from your host/vm/container (one of them)
+- 1.4 Active check vs passive check - use both types.
+- 1.5 Make an agentless check of any resource (ICMP ping)
+- 1.6 Provoke an alert - and create a Maintenance instruction
+- 1.7 Set up a dashboard with infrastructure nodes and monitoring of hosts and software installed on them
 
 
 ## 2. ELK:
