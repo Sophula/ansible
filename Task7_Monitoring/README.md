@@ -44,7 +44,7 @@ Install Zabbix server, frontend, agent:
 ```
 apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-sql-scripts zabbix-agent
 ```
-[Create Initial Database, Configure the database for Zabbix server, Start Zabbix server and agent processes, Configure Zabbix frontend]https://www.zabbix.com/download?zabbix=6.0&os_distribution=ubuntu&os_version=20.04_focal&db=mysql&ws=apache
+[Create Initial Database, Configure the database for Zabbix server, Start Zabbix server and agent processes, Configure Zabbix frontend](https://www.zabbix.com/download?zabbix=6.0&os_distribution=ubuntu&os_version=20.04_focal&db=mysql&ws=apache)
 
 
 ## 2. ELK:
