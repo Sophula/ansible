@@ -46,6 +46,23 @@ apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-sq
 ```
 [Create Initial Database, Configure the database for Zabbix server, Start Zabbix server and agent processes, Configure Zabbix frontend](https://www.zabbix.com/download?zabbix=6.0&os_distribution=ubuntu&os_version=20.04_focal&db=mysql&ws=apache)
 
+Install Zabbix Agent:
+```
+sudo wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-1+ubuntu20.04_all.deb
+sudo dpkg -i zabbix-release_6.0-1+ubuntu20.04_all.deb
+sudo apt update
+sudo apt install zabbix-agent
+sudo systemctl status zabbix-agent
+sudo systemctl restart zabbix-agent
+sudo systemctl enable zabbix-agent
+sudo systemctl status zabbix-agent
+sudo vim /etc/zabbix/zabbix_agentd.conf
+sudo systemctl restart zabbix-agent
+sudo ufw enable
+sudo ufw allow 10050/tcp
+sudo ufw status
+```
+
 
 ## 2. ELK:
 Nobody is forgotten and nothing is forgotten.
