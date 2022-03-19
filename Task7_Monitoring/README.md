@@ -91,4 +91,4 @@ sudo systemctl enable grafana-server
 ```
 - Integrate with installed ELK
 - Set up Dashboards
-- Study features and settings
+- [Study features and settings](https://www.plesk.com/blog/various/grafana-monitoring-solution/)
