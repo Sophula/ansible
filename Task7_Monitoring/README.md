@@ -34,9 +34,17 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
-
-
-
+Install Zabbix Repo:
+```
+wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-1+ubuntu20.04_all.deb
+dpkg -i zabbix-release_6.0-1+ubuntu20.04_all.deb
+apt update
+```
+Install Zabbix server, frontend, agent: 
+```
+apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-sql-scripts zabbix-agent
+```
+[Create Initial Database, Configure the database for Zabbix server, Start Zabbix server and agent processes, Configure Zabbix frontend]https://www.zabbix.com/download?zabbix=6.0&os_distribution=ubuntu&os_version=20.04_focal&db=mysql&ws=apache
 
 
 ## 2. ELK:
