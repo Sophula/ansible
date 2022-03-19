@@ -69,7 +69,7 @@ services:
     labels:
       - "traefik.enable=true"
       # Zabbix URL (replace with yours)
-      - "traefik.http.routers.zabbix.rule=Host(`zabbix.heyvaldemar.net`)"
+      - "traefik.http.routers.zabbix.rule=Host(`zabbix.example.com`)"
       - "traefik.http.routers.zabbix.service=zabbix"
       - "traefik.http.routers.zabbix.entrypoints=websecure"
       - "traefik.http.services.zabbix.loadbalancer.server.port=8080"
