@@ -86,6 +86,27 @@ Used ‘Discover’ section and on created Index Pattern, using ‘*’ and ‘@
 ![image](https://user-images.githubusercontent.com/85607071/159227133-a9a156bf-cc95-40a5-9067-f1595c7e4aee.png)
 
 - Customize your dashboards in ELK
+Have installed Docker metrics:
+```
+curl -L -O https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-7.1.1-amd64.deb
+sudo dpkg -i metricbeat-7.1.1-amd64.deb
+```
+
+Modified /etc/metricbeat/metricbeat.yml
+```
+output.elasticsearch:
+  hosts: ["<es_url>"]
+  username: "elastic"
+  password: "<password>"
+setup.kibana:
+  host: "<kibana_url>"
+```
+
+```
+sudo metricbeat modules enable docker
+sudo metricbeat setup
+sudo service metricbeat start
+```
 
 EXTRA 2.4: Set up filters on the Logstash side (get separate docker_container and docker_image fields from the message field)
 
