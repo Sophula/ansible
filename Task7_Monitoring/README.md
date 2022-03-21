@@ -128,6 +128,9 @@ sudo systemctl status grafana-server
 sudo systemctl enable grafana-server
 ```
 - Integrate with installed ELK
+
+![image](https://user-images.githubusercontent.com/85607071/159247123-4fcfc0e2-6422-44f4-b31a-bb1d26913c59.png)
+
 - Set up Dashboards
 
 ![image](https://user-images.githubusercontent.com/85607071/159233152-71c912f2-4684-46e8-819d-52e248b4d443.png)
