@@ -73,7 +73,7 @@ Nobody is forgotten and nothing is forgotten.
 EXTRA 2.4: Set up filters on the Logstash side (get separate docker_container and docker_image fields from the message field)
 
 - Configure monitoring in ELK, get metrics from your running containers
-- Study features and settings
+- [Study features and settings](https://www.elastic.co/elastic-stack/features)
 
 ## 3. Grafana:
 - Install Grafana
