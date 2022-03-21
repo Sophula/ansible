@@ -67,7 +67,24 @@ sudo ufw status
 ## 2. ELK:
 Nobody is forgotten and nothing is forgotten.
 - Install and configure ELK
+Have used docker-compose file to deploy ELK stack: Elasticsearch, Logstash and Kibana. As a volume mounted the logstash.conf inside the container.
+Command to run the docker-compose file:
+```
+docker-compose up -d
+```
+
 - Organize collection of logs from docker to ELK and receive data from running containers
+
+Have started additional nginx container to organize collection of logs from docker to ELK. 
+
+```
+docker run -d -p 8080:80 --log-driver gelf --log-opt gelf-address=udp://localhost:12201 nginx:latest
+```
+
+Used ‘Discover’ section and on created Index Pattern, using ‘*’ and ‘@timestamp’.
+
+![image](https://user-images.githubusercontent.com/85607071/159227133-a9a156bf-cc95-40a5-9067-f1595c7e4aee.png)
+
 - Customize your dashboards in ELK
 
 EXTRA 2.4: Set up filters on the Logstash side (get separate docker_container and docker_image fields from the message field)
