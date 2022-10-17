@@ -135,5 +135,4 @@ sudo systemctl enable grafana-server
 
 ![image](https://user-images.githubusercontent.com/85607071/159233152-71c912f2-4684-46e8-819d-52e248b4d443.png)
 
-
 - [Study features and settings](https://www.plesk.com/blog/various/grafana-monitoring-solution/)
